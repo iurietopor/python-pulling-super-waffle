@@ -8,6 +8,8 @@
     <title>Polling {% block title %}{% endblock %}</title>
 </head>
 <body>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
     <nav class="navbar navbar-expand navbar-dark bg-dark mb-5">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

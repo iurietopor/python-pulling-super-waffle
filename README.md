@@ -21,8 +21,8 @@ Source to tutorial: <a href="https://docs.djangoproject.com/en/3.2/intro/tutoria
 | <a href='https://docs.djangoproject.com/en/3.2/intro/tutorial02/'>Part 2</a> | Done | ---        |
 | <a href='https://docs.djangoproject.com/en/3.2/intro/tutorial03/'>Part 3</a> | Done | 2021-07-16 |
 | <a href='https://docs.djangoproject.com/en/3.2/intro/tutorial04/'>Part 4</a> | Done | 2021-07-20 |
-| <a href='https://docs.djangoproject.com/en/3.2/intro/tutorial05/'>Part 5</a> | Ongoing | --- | 
-| <a href='https://docs.djangoproject.com/en/3.2/intro/tutorial06/'>Part 6</a> | --- | --- |
-| <a href='https://docs.djangoproject.com/en/3.2/intro/tutorial07/'>Part 7</a> | --- | --- |
+| <a href='https://docs.djangoproject.com/en/3.2/intro/tutorial05/'>Part 5</a> | Done | 2021-07-31 | 
+| <a href='https://docs.djangoproject.com/en/3.2/intro/tutorial06/'>Part 6</a> | Done | 2021-07-31 |
+| <a href='https://docs.djangoproject.com/en/3.2/intro/tutorial07/'>Part 7</a> | Ongoing | --- |
 ||
 ---
