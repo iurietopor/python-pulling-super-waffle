@@ -100,3 +100,4 @@ db.sqlite3
 *.it_info
 *.code-workspace
 *.ori.py
+static
