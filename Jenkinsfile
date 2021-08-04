@@ -16,7 +16,13 @@ pipeline {
         stage('Deploy') { 
             steps {
                 // 
-				sh 'echo deploying'
+				sh 'ssh deployment-user@192.168.56.103 "source venv/bin/activate; \
+				cd polling; \
+				git pull origin master; \
+				pip install -r requirements.txt --no-with-script-location; \
+				deactivate; \
+				sudo systemctl restart nginx; \
+				sudo systemctl restart gunicorn "'
             }
         }
     }
