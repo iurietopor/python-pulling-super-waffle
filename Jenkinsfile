@@ -14,7 +14,7 @@ pipeline {
             }
         }
     
-		stage('Deploy to Stagin') { 
+		stage('Deploy to Staging') { 
             steps {
                 // 
 				sh 'ssh -o StrictHostKeyChecking=no deployment-user@192.168.56.105 "source venv/bin/activate; \
