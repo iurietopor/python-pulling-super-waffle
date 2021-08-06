@@ -27,7 +27,11 @@ pipeline {
             }
         }
 
-        stage('Deploy to Prod') { 
+        stage('Deploy to Prod') {
+            input {
+                message "Shall we deploy to production?"
+                ok "Yes please!"
+            } 
             steps {
                 // 
 				sh 'ssh -o StrictHostKeyChecking=no deployment-user@192.168.56.101 "source venv/bin/activate; \
